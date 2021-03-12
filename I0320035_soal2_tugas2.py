@@ -29,7 +29,7 @@ fakultas = "Fakultas Teknik"
 Angkatan = 2020
 universitas = "Universitas Sebelas Maret"
 
-#operasi menghitung umur secara detail
+#operasi menghitung umur dalam format tahun, bulan, dan hari
 sekarang = int(tanggal_sekarang) + (int(bulan_sekarang)*30) + (int(tahun_sekarang)*365)
 lahir = int(tanggal_lahir) + (int(bulan_lahir)*30) + (int(tahun_lahir)*365)
 tahun = int((sekarang - lahir) / 365)
