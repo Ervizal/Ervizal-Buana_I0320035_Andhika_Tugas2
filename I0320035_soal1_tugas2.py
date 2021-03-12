@@ -1,12 +1,10 @@
 print("=====================================================")
 print("====== Program Menghitung Luas Persegi Panjang ======") 					#menuliskan judul program
 print("=====================================================")
-#menyimpan input dalam bentuk variabel
-panjang = float(input("Masukkan panjang"))
-lebar = float(input("Masukkan lebar"))
+panjang = float(input("Masukkan panjang"))										#menyimpan input panjang di variabel panjang
+lebar = float(input("Masukkan lebar"))											#menyimpan input lebar di variabel lebar
 luas = panjang*lebar															#operasi hitung luas persegi panjang
-#mengeluarkan output hasil perhitungan
-print("Luas persegi panjang adalah", luas, "satuan")
+print("Luas persegi panjang adalah", luas, "satuan")							#mengeluarkan output hasil perhitungan
 
 import math																		#mengimpor library math
 print("===================================================")
